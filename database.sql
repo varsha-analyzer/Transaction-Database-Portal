@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS stores (
 );
 
 CREATE TABLE IF NOT EXISTS products (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY;
     store_id INT,
     name VARCHAR(100),
     price DECIMAL(10,2),
