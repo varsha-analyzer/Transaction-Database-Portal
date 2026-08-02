@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS transactions (
     product_id INT,
     quantity INT,
     total DECIMAL(10,2),
-    date DATETIME,
+    date DATETIME;
     FOREIGN KEY (product_id) REFERENCES products(id)
 );
 
